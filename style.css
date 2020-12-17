@@ -2,6 +2,9 @@
     font-family: 'Raleway';
     src: url('fonts/Raleway/static/Raleway-Regular.ttf');
 }
-p{
-    color:blueviolet;
+p,h1,h2,h3{
+    font-family: 'Raleway';
+}
+p,i,nav{
+    color:#0065FC;
 }

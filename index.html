@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" />
         <title>Reservia</title>
     </head>
@@ -25,7 +26,8 @@
                 <p>En plein centre ville ou en pleine nature</p>
                 <form>
                     <div>
-                      <input type="search" id="recherche" name="q"placeholder="ex: Marseille,France">
+                        <p><i class="fas fa-map-marker-alt"></i></p>
+                     <input type="search" id="recherche" name="q"placeholder="ex: Marseille,France">
                       <button>Rechercher</button>
                     </div>
                 </form>
@@ -33,11 +35,11 @@
 <!-- filtres et résultats-->
             <div class="filtres">
                 <h3>Filtres</h3>
-                <button type="button" class="btn">Economique</button>
-                <button type="button" class="btn">Familial</button>
-                <button type="button" class="btn">Romantique</button>
-                <button type="button" class="btn">Animaux autorisés</button>  
-                <p> <span>Plus de 500 </span> logements sont disponibles dans cette ville</p>    
+                <button type="button" class="btn"><p><i class="fas fa-money-bill-wave"></i></p>Economique</button>
+                <button type="button" class="btn"><p><i class="fas fa-child"></i></p>Familial</button>
+                <button type="button" class="btn"><p><i class="fas fa-heart"></i></p>Romantique</button>
+                <button type="button" class="btn"><p><i class="fas fa-dog"></i></p>Animaux autorisés</button>  
+                <p> <span>Plus de 500</span> logements sont disponibles dans cette ville</p>    
             </div>
         </header>
 <!-- Section 1: hébergements-->
@@ -46,7 +48,7 @@
                     <h1>Hébergements à Marseille</h1>
                 </article>
                 <aside>
-                    <h1>Les plus populaires</h1>
+                    <h1><i class="fas fa-chart-line"></i>Les plus populaires</h1>
                 </aside>
             </section>
 <!-- Section 1: activités -->
@@ -66,6 +68,7 @@
         </footer>
     </div>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
