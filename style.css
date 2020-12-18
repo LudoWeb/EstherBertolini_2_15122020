@@ -2,6 +2,49 @@
     font-family: 'Raleway';
     src: url('fonts/Raleway/static/Raleway-Regular.ttf');
 }
-p{
-    color:blueviolet;
+p,h1,h2,h3{
+    font-family: 'Raleway';
+}
+p,i,nav{
+    color:#0065FC;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+/* recherches */
+form{
+    display: flex;
+}
+
+/* Filtres */
+#filtres{
+    display: flex;
+}
+.btn:hover
+{
+    color:#0065FC;
+    text-decoration: underline #0065FC;;
+}
+/* Hébergements */
+#hebergements{
+    display:flex;
+    justify-content: space-between;
+}
+/* footer */
+footer{
+    display:flex;
+    justify-content: space-between;
 }
