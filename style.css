@@ -338,12 +338,43 @@ footer {
  
   }
   @media all and (max-width: 600px)
-   {
-    .hebergements,.activites{
+  {
+    header img {
+      position: absolute;
+    }
+
+    nav ul {
+      flex-flow: wrap;
+    }
+
+    nav li:nth-child(1) {
+      order: 2;
+      margin-top: 50px;
+      margin-left: 0;
+      flex: 50%;
+      text-align: center;
+    }
+
+    nav li:nth-child(2) {
+      order: 3;
+      flex: 50%;
+      margin-left: 0;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    nav li:nth-child(3) {
+      order: 1;
+      flex: 100%;
+      text-align: right;
+    }
+
+    .hebergements,
+    .activites {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-      }  
+    }  
     .hebergement-carte{
       width:100%;
     } 
